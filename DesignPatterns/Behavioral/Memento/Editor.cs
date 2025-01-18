@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Memento
+﻿namespace DesignPatterns.Behavioral.Memento
 {
     // Originator: The editor whose state we want to save/restore.
     public class Editor

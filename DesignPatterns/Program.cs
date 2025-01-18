@@ -1,4 +1,6 @@
-﻿using DesignPatterns.Memento;
+﻿
+#region MementoDP
+/*using DesignPatterns.Memento;
 
 var editor = new Editor();
 var history = new History();
@@ -16,4 +18,21 @@ editor.Restore(history.Undo());
 Console.WriteLine("After Undo 1: " + editor.Content);
 
 editor.Restore(history.Undo());
-Console.WriteLine("After Undo 2: " + editor.Content);
+Console.WriteLine("After Undo 2: " + editor.Content);*/
+#endregion
+
+#region StateDP
+using DesignPatterns.Behavioral.State;
+
+var document = new Document(UserRoles.EDITOR);
+
+Console.WriteLine("Current State: Draft");
+document.Publish();
+
+Console.WriteLine("Current State: Moderation");
+document.CurrentUserRole = UserRoles.ADMIN;
+document.Publish(); 
+
+Console.WriteLine("Current State: Published");
+document.Publish(); 
+#endregion

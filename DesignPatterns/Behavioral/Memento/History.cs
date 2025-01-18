@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Memento
+﻿namespace DesignPatterns.Behavioral.Memento
 {
     // Caretaker: Manages the mementos and interacts with the Originator.
     public class History
