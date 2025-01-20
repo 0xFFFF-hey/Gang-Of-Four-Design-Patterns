@@ -3,7 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+/*
+ * Encapsulate a request as an object, thereby letting you parameterize clients with
+ * different requests queue, or log requests, and support undoable operations.
+ */
 namespace DesignPatterns.Behavioral.Command.GoodExample
 {
     internal class RemoteControl
