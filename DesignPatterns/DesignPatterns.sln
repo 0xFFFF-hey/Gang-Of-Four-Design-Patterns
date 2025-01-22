@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "DesignPatterns.csproj", "{CC916F76-A547-4BC8-BA06-E78A37B61461}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPatterns.csproj", "{CC916F76-A547-4BC8-BA06-E78A37B61461}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattenrsProjects", "DesignPattenrsProjects", "{A1E5BAC7-DDC6-40B6-BF8C-9410D27CE0FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp", "..\ToDoApp\ToDoApp.csproj", "{A3EB68AB-A193-4A86-9983-68F1E0971488}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,16 @@ Global
 		{CC916F76-A547-4BC8-BA06-E78A37B61461}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC916F76-A547-4BC8-BA06-E78A37B61461}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC916F76-A547-4BC8-BA06-E78A37B61461}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3EB68AB-A193-4A86-9983-68F1E0971488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3EB68AB-A193-4A86-9983-68F1E0971488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3EB68AB-A193-4A86-9983-68F1E0971488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3EB68AB-A193-4A86-9983-68F1E0971488}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A3EB68AB-A193-4A86-9983-68F1E0971488} = {A1E5BAC7-DDC6-40B6-BF8C-9410D27CE0FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8BE2D0F-0E35-4EDF-AE9D-CAAB8E2AE117}
