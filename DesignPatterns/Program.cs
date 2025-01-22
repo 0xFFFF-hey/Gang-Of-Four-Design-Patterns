@@ -22,7 +22,7 @@ Console.WriteLine("After Undo 2: " + editor.Content);*/
 #endregion
 
 #region StateDP
-using DesignPatterns.Behavioral.State;
+/*using DesignPatterns.Behavioral.State;
 
 var document = new Document(UserRoles.EDITOR);
 
@@ -34,5 +34,19 @@ document.CurrentUserRole = UserRoles.ADMIN;
 document.Publish(); 
 
 Console.WriteLine("Current State: Published");
-document.Publish(); 
+document.Publish(); */
+#endregion
+
+#region Visitor
+using DesignPatterns.Behavioral.Visitor.GoodExample;
+var clients = new List<Client>() {
+    new Restaurant("Resto", "resto@gmail.com"),
+    new Retail("Retail", "retail@hotmail.fr"),
+    new Law("law", "law@mail.com")
+};
+foreach (var client in clients)
+{
+    client.Accept(new EmailVisitor());
+    client.Accept(new PDFExportVisitor());
+}
 #endregion
