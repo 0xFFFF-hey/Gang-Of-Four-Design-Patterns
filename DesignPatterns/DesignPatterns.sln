@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns", "DesignPat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattenrsProjects", "DesignPattenrsProjects", "{A1E5BAC7-DDC6-40B6-BF8C-9410D27CE0FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp", "..\ToDoApp\ToDoApp.csproj", "{A3EB68AB-A193-4A86-9983-68F1E0971488}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp", "..\ToDoApp\ToDoApp.csproj", "{A3EB68AB-A193-4A86-9983-68F1E0971488}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteControlSimulator", "..\RemoteControlSimulator\RemoteControlSimulator.csproj", "{E68D37FA-0F69-40CF-A312-14A79DFEC81D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +25,17 @@ Global
 		{A3EB68AB-A193-4A86-9983-68F1E0971488}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3EB68AB-A193-4A86-9983-68F1E0971488}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3EB68AB-A193-4A86-9983-68F1E0971488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68D37FA-0F69-40CF-A312-14A79DFEC81D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68D37FA-0F69-40CF-A312-14A79DFEC81D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68D37FA-0F69-40CF-A312-14A79DFEC81D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68D37FA-0F69-40CF-A312-14A79DFEC81D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A3EB68AB-A193-4A86-9983-68F1E0971488} = {A1E5BAC7-DDC6-40B6-BF8C-9410D27CE0FC}
+		{E68D37FA-0F69-40CF-A312-14A79DFEC81D} = {A1E5BAC7-DDC6-40B6-BF8C-9410D27CE0FC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D8BE2D0F-0E35-4EDF-AE9D-CAAB8E2AE117}

@@ -38,7 +38,7 @@ document.Publish(); */
 #endregion
 
 #region Visitor
-using DesignPatterns.Behavioral.Visitor.GoodExample;
+/*using DesignPatterns.Behavioral.Visitor.GoodExample;
 var clients = new List<Client>() {
     new Restaurant("Resto", "resto@gmail.com"),
     new Retail("Retail", "retail@hotmail.fr"),
@@ -48,5 +48,17 @@ foreach (var client in clients)
 {
     client.Accept(new EmailVisitor());
     client.Accept(new PDFExportVisitor());
-}
+}*/
+#endregion
+
+
+#region Command
+using DesignPatterns.Behavioral.Command.GoodExample;
+Light light = new Light();
+ICommand turnOn = new TurnOnCommand(light);
+ICommand turnOff = new TurnOffCommand(light);
+RemoteControl remoteControl = new RemoteControl(turnOn);
+remoteControl.PressButton();
+remoteControl.SetCommand(turnOff);
+remoteControl.PressButton();
 #endregion
