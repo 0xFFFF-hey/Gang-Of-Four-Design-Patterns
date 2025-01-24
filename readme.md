@@ -1,3 +1,6 @@
+# UML Relations
+![image](https://github.com/user-attachments/assets/4092cf5b-58a5-46f6-b776-be92362589f6)
+
 # Behavioral Design Patterns
 Behavioral design patterns focus on how objects interact and communicate with each other. They define the responsibilities and relationships between objects, ensuring that complex interactions are managed efficiently while promoting loose coupling.
 (Ils définissent comment les objets interagissent et communiquent entre eux pour gérer efficacement les responsabilités et les relations.)
