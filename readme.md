@@ -19,4 +19,15 @@ Define an object that encapsulates how a set of objects interact. Mediator promo
 ## Memento 
 Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.
 ![image](https://github.com/user-attachments/assets/d8b0c556-f97c-4597-8e1a-c8185fcae9ec)
-
+## Observer 
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+![image](https://github.com/user-attachments/assets/c5bc000c-7566-48dc-88dc-844459a3836e)
+## State 
+Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.
+![image](https://github.com/user-attachments/assets/757ae378-ce31-4e41-9720-b345c836b224)
+## Template
+Define the skeleton of an algorithm in the superclass but let subclasses override specific steps of the algorithm without changing its structure.
+![image](https://github.com/user-attachments/assets/625d0cc8-d64e-4e63-a0d6-87af4746ff76)
+## Visitor 
+Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates
+![image](https://github.com/user-attachments/assets/89f07c71-a3c1-4cf2-b22d-1caf1c03b5e5)
