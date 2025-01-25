@@ -20,8 +20,8 @@
 
 # UML Relations
   - **Dependency**
-Definition: A relationship where one class depends on another for its operation or behavior.
-Example: A class Printer depends on the Paper class.
+  * Definition: A relationship where one class depends on another for its operation or behavior.
+  * Example: A class Printer depends on the Paper class.
   - **Association**
 Definition: A structural relationship that represents how objects are connected to each other.
 Example: A teacher teaches students.
