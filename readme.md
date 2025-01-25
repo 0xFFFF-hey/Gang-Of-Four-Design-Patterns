@@ -16,6 +16,7 @@
   - [Proxy](#proxy)
   - [Bridge](#bridge)
   - [Composite](#composite)
+  - [Decorator](#decorator)
 
 # UML Relations
 ![image](https://github.com/user-attachments/assets/4092cf5b-58a5-46f6-b776-be92362589f6)
