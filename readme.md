@@ -1,7 +1,7 @@
 # Table of Contents
-- [UML Relations](#UML Relations)
-- [Behavioral Design Patterns](#Behavioral Design Patterns)
-- [Structural Design Patterns](#Structural Design Patterns)
+- [UML Relations](#UML-Relations)
+- [Behavioral Design Patterns](#Behavioral-Design-Patterns)
+- [Structural Design Patterns](#Structural-Design-Patterns)
 
 # UML Relations
 ![image](https://github.com/user-attachments/assets/4092cf5b-58a5-46f6-b776-be92362589f6)
