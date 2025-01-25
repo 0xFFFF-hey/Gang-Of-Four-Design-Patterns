@@ -66,6 +66,9 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 ## Composite
 Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
 ![image](https://github.com/user-attachments/assets/841823ea-2995-4da1-9cfc-1c1b3c823973)
+## Decorator
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+![image](https://github.com/user-attachments/assets/a68387e4-c65b-4b85-a0a6-ed13432ad947)
 
 
 
