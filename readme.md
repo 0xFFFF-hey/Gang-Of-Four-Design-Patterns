@@ -19,24 +19,31 @@
   - [Decorator](#decorator)
 
 # UML Relations
-  ## Dependency
-  * Definition: A relationship where one class depends on another for its operation or behavior.
-  * Example: A class Printer depends on the Paper class.
-  ## Association
-  * Definition: A structural relationship that represents how objects are connected to each other.
-  * Example: A teacher teaches students.
-  ## Aggregation
-  * Definition: A "whole-part" relationship where the part can exist independently of the whole.
-  * Example: A classroom has students, but students can exist without the classroom.
-  ## Composition
-  * Definition: A stronger form of aggregation where the parts cannot exist without the whole. If the whole is destroyed, the parts are destroyed too.
-  * Example: A house contains rooms, and if the house is demolished, the rooms no longer exist.
-  ## Generalization
-  * Definition: A relationship where one class (subclass) inherits from another class (superclass).
-  * Example: A Car is a type of Vehicle.
-  ## Realization
-  * Definition: A relationship between an interface and a class that implements the interface.
-  * Example: A Dog class implements the Animal interface.
+
+## 1. Dependency
+- **Definition**: A relationship where one class depends on another for its operation or behavior.
+- **Example**: A `Printer` class depends on the `Paper` class.
+
+## 2. Association
+- **Definition**: A structural relationship that represents how objects are connected to each other.
+- **Example**: A `Teacher` teaches `Students`.
+
+## 3. Aggregation
+- **Definition**: A "whole-part" relationship where the part can exist independently of the whole.
+- **Example**: A `Classroom` has `Students`, but `Students` can exist without the `Classroom`.
+
+## 4. Composition
+- **Definition**: A stronger form of aggregation where the parts cannot exist without the whole. If the whole is destroyed, the parts are destroyed too.
+- **Example**: A `House` contains `Rooms`, and if the house is demolished, the rooms no longer exist.
+
+## 5. Generalization
+- **Definition**: A relationship where one class (subclass) inherits from another class (superclass).
+- **Example**: A `Car` is a type of `Vehicle`.
+
+## 6. Realization
+- **Definition**: A relationship between an interface and a class that implements the interface.
+- **Example**: A `Dog` class implements the `Animal` interface.
+
 ![image](https://github.com/user-attachments/assets/4092cf5b-58a5-46f6-b776-be92362589f6)
 
 # Behavioral Design Patterns
