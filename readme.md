@@ -44,4 +44,9 @@ Provide a surrogate or placeholder for another object to control access to it.
 ## Bridge
 Decouple an abstraction from its implementation so that the two can vary independently.
 ![image](https://github.com/user-attachments/assets/f39648df-e6fb-4544-91b6-d69e4187f2f1)
+## Composite
+Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.
+![image](https://github.com/user-attachments/assets/841823ea-2995-4da1-9cfc-1c1b3c823973)
+
+
 
