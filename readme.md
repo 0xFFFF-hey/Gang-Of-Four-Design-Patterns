@@ -23,6 +23,11 @@ SOLID is an acronym for five design principles that promote cleaner, more mainta
 ## S: Single Responsibility Principle (SRP)
   - A class should have only one reason to change, meaning it should only have one job or responsibility.
   - Example: A class that handles both database operations and business logic should be split into two classes, one for each responsibility.
+## Open/Closed Principle (OCP)
+  - Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means you can add new functionality to a class without changing its existing code.
+  - Example: You can add new types of payment methods to a payment system without modifying the existing payment processing class, by extending it
+## 
+
 
 # UML Relations
 
