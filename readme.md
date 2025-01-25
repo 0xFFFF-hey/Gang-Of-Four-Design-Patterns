@@ -19,7 +19,7 @@
   - [Decorator](#decorator)
 
 # UML Relations
-  - **Dependency**
+  ### **Dependency**
   * Definition: A relationship where one class depends on another for its operation or behavior.
   * Example: A class Printer depends on the Paper class.
   - **Association**
