@@ -57,6 +57,8 @@ Example :
 ## Chain of Responsibility
 Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 ![image](https://github.com/user-attachments/assets/477903f1-4cb1-40b5-ac3b-fb97c30f3e7a)
+Example :
+![ChainOfRespo](https://github.com/user-attachments/assets/abb0a4b2-92d4-424b-b624-c3f6862d9f36)
 ## Command
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 ![image](https://github.com/user-attachments/assets/045244fa-a365-48ae-a898-2e8ccbc9e04b)
