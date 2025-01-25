@@ -18,6 +18,12 @@
   - [Composite](#composite)
   - [Decorator](#decorator)
 
+# SOLID Principles
+SOLID is an acronym for five design principles that promote cleaner, more maintainable code. These principles are widely used in object-oriented programming (OOP).
+## S: Single Responsibility Principle (SRP)
+  - A class should have only one reason to change, meaning it should only have one job or responsibility.
+  - Example: A class that handles both database operations and business logic should be split into two classes, one for each responsibility.
+
 # UML Relations
 
 ## 1. Dependency
