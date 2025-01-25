@@ -34,3 +34,14 @@ Define the skeleton of an algorithm in the superclass but let subclasses overrid
 ## Visitor 
 Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates
 ![image](https://github.com/user-attachments/assets/89f07c71-a3c1-4cf2-b22d-1caf1c03b5e5)
+# Structural Design Patterns
+## Adapter
+Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+![image](https://github.com/user-attachments/assets/f3c4869c-68b4-439f-8d2a-1b2c9e7e16a9)
+## Proxy
+Provide a surrogate or placeholder for another object to control access to it.
+![image](https://github.com/user-attachments/assets/9cbe25e1-c7a5-4326-98d4-afd010920db5)
+## Bridge
+Decouple an abstraction from its implementation so that the two can vary independently.
+![image](https://github.com/user-attachments/assets/f39648df-e6fb-4544-91b6-d69e4187f2f1)
+
