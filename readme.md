@@ -23,11 +23,30 @@ SOLID is an acronym for five design principles that promote cleaner, more mainta
 ## S: Single Responsibility Principle (SRP)
   - A class should have only one reason to change, meaning it should only have one job or responsibility.
   - Example: A class that handles both database operations and business logic should be split into two classes, one for each responsibility.
-## Open/Closed Principle (OCP)
+## O: pen/Closed Principle (OCP)
   - Software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. This means you can add new functionality to a class without changing its existing code.
   - Example: You can add new types of payment methods to a payment system without modifying the existing payment processing class, by extending it
-## 
-
+## L: Liskov Substitution Principle (LSP)
+  - Objects of a superclass should be replaceable with objects of a subclass without affecting the correctness of the program.
+  - Example: If you have a Shape class and a Rectangle subclass, replacing an object of type Shape with a Rectangle should not cause any unexpected behavior or errors.
+## I: Interface Segregation Principle (ISP)
+  - Clients should not be forced to implement interfaces they do not use. In other words, it’s better to have several small, specific interfaces than a large, general one.
+  - Example: If a Printer interface has methods for both print() and fax(), but not all printers support faxing, you should split the interface into two: Printable and Faxable.
+## D: Dependency Inversion Principle (DIP)
+  - High-level modules should not depend on low-level modules. Both should depend on abstractions (e.g., interfaces or abstract classes). Additionally, abstractions should not depend on details; details should depend on abstractions.
+  - Example: Instead of directly instantiating objects inside a class (e.g., new DatabaseConnection()), use dependency injection to pass an abstraction (e.g., an interface for DatabaseConnection) to the class.
+# DRY (Don't Repeat Yourself)
+  - Concept: Avoid duplicating code. If you notice the same logic is used in multiple places, refactor it into a single reusable module or function.
+  - Example: Instead of writing the same validation code for email in multiple classes, create a separate utility function that handles email validation.
+# KISS (Keep It Simple, Stupid)
+  - Concept: Keep your software design as simple as possible. Avoid overcomplicating solutions when a simpler one would suffice.
+  - Example: If you can solve a problem with a basic loop and conditional statement, don’t over-engineer it with unnecessary complexity like recursion or multiple design patterns.
+# YAGNI (You Aren't Gonna Need It)
+  - Concept: Don’t add functionality unless it’s absolutely necessary. Avoid building features that might be useful in the future but are not required at the moment.
+  - Example: Don’t implement an admin panel if you don’t currently need it, just because you think you might in the future.
+# Composition Over Inheritance
+  - Concept: Favor object composition over inheritance. Inheritance can create tight coupling between classes, while composition allows for greater flexibility by allowing objects to delegate tasks to other objects.
+  - Example: Instead of creating a Car class that inherits from a Vehicle class, compose a Car class with a Engine and Wheels objects.
 
 # UML Relations
 
