@@ -93,6 +93,8 @@ Example :
 ## Command
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 ![image](https://github.com/user-attachments/assets/045244fa-a365-48ae-a898-2e8ccbc9e04b)
+Example : 
+![Command drawio](https://github.com/user-attachments/assets/4a8b842f-88c7-45ee-a7ff-7aca18bea345)
 ## Iterator
 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 ![image](https://github.com/user-attachments/assets/7b7acfc5-d89c-41d1-8c66-afca9e79947b)
