@@ -82,9 +82,9 @@ Behavioral design patterns focus on how objects interact and communicate with ea
 (Ils définissent comment les objets interagissent et communiquent entre eux pour gérer efficacement les responsabilités et les relations.)
 ## Strategy 
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
-![image](https://github.com/user-attachments/assets/e6093fce-bd1b-48fd-a295-b11b9c53d4b0)
+![image](https://github.com/user-attachments/assets/b3830967-d5cd-4cf2-aff5-049ada8dc63b)
 Example :
-![uml](https://github.com/user-attachments/assets/2afa752b-eed5-4bc4-994d-8d05289db5ae)
+![Strategy drawio](https://github.com/user-attachments/assets/74a30996-15cc-4860-8fc6-4db7e68879fa)
 ## Chain of Responsibility
 Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 ![image](https://github.com/user-attachments/assets/477903f1-4cb1-40b5-ac3b-fb97c30f3e7a)
@@ -93,6 +93,8 @@ Example :
 ## Command
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.
 ![image](https://github.com/user-attachments/assets/045244fa-a365-48ae-a898-2e8ccbc9e04b)
+Example : 
+![Command drawio](https://github.com/user-attachments/assets/4a8b842f-88c7-45ee-a7ff-7aca18bea345)
 ## Iterator
 Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.
 ![image](https://github.com/user-attachments/assets/7b7acfc5-d89c-41d1-8c66-afca9e79947b)
