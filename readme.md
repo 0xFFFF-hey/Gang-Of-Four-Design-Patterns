@@ -82,9 +82,8 @@ Behavioral design patterns focus on how objects interact and communicate with ea
 (Ils définissent comment les objets interagissent et communiquent entre eux pour gérer efficacement les responsabilités et les relations.)
 ## Strategy 
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
-![Strategy drawio](https://github.com/user-attachments/assets/74a30996-15cc-4860-8fc6-4db7e68879fa)
 Example :
-![uml](https://github.com/user-attachments/assets/2afa752b-eed5-4bc4-994d-8d05289db5ae)
+![Strategy drawio](https://github.com/user-attachments/assets/74a30996-15cc-4860-8fc6-4db7e68879fa)
 ## Chain of Responsibility
 Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 ![image](https://github.com/user-attachments/assets/477903f1-4cb1-40b5-ac3b-fb97c30f3e7a)
