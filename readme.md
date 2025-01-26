@@ -82,6 +82,7 @@ Behavioral design patterns focus on how objects interact and communicate with ea
 (Ils définissent comment les objets interagissent et communiquent entre eux pour gérer efficacement les responsabilités et les relations.)
 ## Strategy 
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+![image](https://github.com/user-attachments/assets/b3830967-d5cd-4cf2-aff5-049ada8dc63b)
 Example :
 ![Strategy drawio](https://github.com/user-attachments/assets/74a30996-15cc-4860-8fc6-4db7e68879fa)
 ## Chain of Responsibility
