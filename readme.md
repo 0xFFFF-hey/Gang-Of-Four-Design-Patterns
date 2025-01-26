@@ -132,6 +132,8 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 ## Decorator
 Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 ![image](https://github.com/user-attachments/assets/a68387e4-c65b-4b85-a0a6-ed13432ad947)
+Example :
+![Decorator drawio](https://github.com/user-attachments/assets/8472e65f-41e3-4d5c-8559-8e094e655ada)
 
 
 
