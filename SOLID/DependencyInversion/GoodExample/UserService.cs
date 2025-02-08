@@ -10,7 +10,7 @@ namespace SOLID.DependencyInversion.GoodExample
     {
         private readonly IUserRepository _repository;
 
-        public UserService(IUserRepository repository) // ✅ Injecting the dependency
+        public UserService(IUserRepository repository) // Injecting the dependency
         {
             _repository = repository;
         }
