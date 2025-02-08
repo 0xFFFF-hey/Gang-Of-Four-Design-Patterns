@@ -65,6 +65,7 @@ remoteControl.PressButton();*/
 
 
 #region singleton
+/*using DesignPatterns.Creational.FactoryMethod.LoggingSystem;
 using DesignPatterns.Creational.Singleton.DataBaseConnectionManager;
 void AccessDatabase(string query)
 {
@@ -88,6 +89,15 @@ thread1.Join();
 thread2.Join();
 thread3.Join();
 
-Console.WriteLine("[Main] All database operations completed.");
+Console.WriteLine("[Main] All database operations completed.");*/
 
+#endregion
+
+#region singleton
+using DesignPatterns.Creational.FactoryMethod.LoggingSystem;
+
+string environment = "Development"; // This could come from config
+ILogger logger = LoggerFactory.CreateLogger(environment);
+
+logger.Log("This is a log message!");
 #endregion
