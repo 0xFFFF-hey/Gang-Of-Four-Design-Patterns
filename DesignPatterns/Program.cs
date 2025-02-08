@@ -53,12 +53,41 @@ foreach (var client in clients)
 
 
 #region Command
-using DesignPatterns.Behavioral.Command.GoodExample;
+/*using DesignPatterns.Behavioral.Command.GoodExample;
 Light light = new Light();
 ICommand turnOn = new TurnOnCommand(light);
 ICommand turnOff = new TurnOffCommand(light);
 RemoteControl remoteControl = new RemoteControl(turnOn);
 remoteControl.PressButton();
 remoteControl.SetCommand(turnOff);
-remoteControl.PressButton();
+remoteControl.PressButton();*/
+#endregion
+
+
+#region singleton
+using DesignPatterns.Creational.Singleton.DataBaseConnectionManager;
+void AccessDatabase(string query)
+{
+    var dbManager = DbManager.Instance;
+    dbManager.OpenConnection();
+    dbManager.ExecuteQuery(query);
+    dbManager.CloseConnection();
+
+}
+
+Console.WriteLine("[Main] Simulating multi-threaded database access...");
+Thread thread1 = new Thread(() => AccessDatabase("SELECT * FROM Users"));
+Thread thread2 = new Thread(() => AccessDatabase("INSERT INTO Logs VALUES ('User logged in')"));
+Thread thread3 = new Thread(() => AccessDatabase("UPDATE Orders SET Status='Completed' WHERE Id=5"));
+
+thread1.Start();
+thread2.Start();
+thread3.Start();
+
+thread1.Join();
+thread2.Join();
+thread3.Join();
+
+Console.WriteLine("[Main] All database operations completed.");
+
 #endregion
