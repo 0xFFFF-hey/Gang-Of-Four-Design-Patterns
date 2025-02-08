@@ -18,6 +18,8 @@
   - [Bridge](#bridge)
   - [Composite](#composite)
   - [Decorator](#decorator)
+- [Creational Design Patterns](#creational-design-patterns)
+  - [Singleton](#singleton)
 
 # SOLID Principles
 ![image](https://github.com/user-attachments/assets/3311e999-38e7-4d7b-9b86-53a4c2504bdb)
@@ -136,5 +138,9 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
 Example :
 ![Decorator drawio](https://github.com/user-attachments/assets/8472e65f-41e3-4d5c-8559-8e094e655ada)
 
+# Creational design patterns
+## Singleton
+Ensure a class only has one instance, and provide a global point of access to it.
+![image](https://github.com/user-attachments/assets/84c837bd-d711-44fd-b8e9-caa222c155bf)
 
 
