@@ -4,6 +4,7 @@ namespace DesignPatterns.Creational.Singleton.DataBaseConnectionManager
 {
     public class DbManager
     {
+        // The lambda function is important to specify how the object will be constructed
         private static readonly Lazy<DbManager> _instance = new Lazy<DbManager>(() => new DbManager());
         private SqlConnection? _sqlConnection;
         private readonly string _connectionString = "MyConnectionString";
