@@ -20,6 +20,7 @@
   - [Decorator](#decorator)
 
 # SOLID Principles
+![image](https://github.com/user-attachments/assets/3311e999-38e7-4d7b-9b86-53a4c2504bdb)
 SOLID is an acronym for five design principles that promote cleaner, more maintainable code. These principles are widely used in object-oriented programming (OOP).
 ## S: Single Responsibility Principle (SRP)
   - A class should have only one reason to change, meaning it should only have one job or responsibility.
