@@ -137,7 +137,6 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
 ![image](https://github.com/user-attachments/assets/a68387e4-c65b-4b85-a0a6-ed13432ad947)
 Example :
 ![Decorator drawio](https://github.com/user-attachments/assets/8472e65f-41e3-4d5c-8559-8e094e655ada)
-
 # Creational design patterns
 ## Singleton
 Ensure a class only has one instance, and provide a global point of access to it.
