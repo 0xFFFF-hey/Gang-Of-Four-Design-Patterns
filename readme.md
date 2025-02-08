@@ -20,6 +20,7 @@
   - [Decorator](#decorator)
 - [Creational Design Patterns](#creational-design-patterns)
   - [Singleton](#singleton)
+  - [Factory Method](#factory-method)
 
 # SOLID Principles
 ![image](https://github.com/user-attachments/assets/3311e999-38e7-4d7b-9b86-53a4c2504bdb)
@@ -141,5 +142,8 @@ Example :
 ## Singleton
 Ensure a class only has one instance, and provide a global point of access to it.
 ![image](https://github.com/user-attachments/assets/84c837bd-d711-44fd-b8e9-caa222c155bf)
+## Factory Method
+The Factory Method Pattern is a creational design pattern that provides an interface for creating objects, but allows subclasses to alter the type of objects that will be created.
+![image](https://github.com/user-attachments/assets/ba0dd247-4498-4c9b-ad5c-21fcda27f7ae)
 
 
