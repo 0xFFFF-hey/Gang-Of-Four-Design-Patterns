@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Creational.FactoryMethod.BadExample.Singleton
+namespace DesignPatterns.Creational.Singleton
 {
     internal class Test
     {
