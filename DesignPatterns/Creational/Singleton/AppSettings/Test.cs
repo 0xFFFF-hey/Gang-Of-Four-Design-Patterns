@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Creational.Singleton
+namespace DesignPatterns.Creational.Singleton.AppSettings
 {
     internal class Test
     {

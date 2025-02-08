@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Creational.Singleton
+namespace DesignPatterns.Creational.Singleton.AppSettings
 {
     internal class AppSettings
     {
-        private static AppSettings _instance;
+        private static AppSettings? _instance;
         private Dictionary<string, object> _settings = new Dictionary<string, object>();
 
         // make constructor private
@@ -24,7 +24,7 @@ namespace DesignPatterns.Creational.Singleton
             return _instance;
         }
 
-        public object Get(string key)
+        public object? Get(string key)
         {
 
             if (!_settings.ContainsKey(key))
