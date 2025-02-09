@@ -1,6 +1,7 @@
 # Table of Contents
 - [SOLID Principles](#solid-principles)
 - [UML Relations](#uml-relations)
+- [Design patterns](#design-patterns)
 - [Behavioral Design Patterns](#behavioral-design-patterns)
   - [Strategy](#strategy)
   - [Chain of Responsibility](#chain-of-responsibility)
