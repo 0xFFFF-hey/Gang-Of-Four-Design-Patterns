@@ -104,7 +104,7 @@ logger.Log("This is a log message!");*/
 
 #region AbstractFacotry
 // Create a light-themed UI
-using DesignPatterns.Creational.AnstractFactory;
+using DesignPatterns.Creational.AbstractFactory;
 
 IGUIFactory lightFactory = new LightThemeFactory();
 Client lightClient = new Client(lightFactory);
