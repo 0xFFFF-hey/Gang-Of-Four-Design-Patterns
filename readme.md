@@ -54,7 +54,6 @@ SOLID is an acronym for five design principles that promote cleaner, more mainta
   - Example: Instead of creating a Car class that inherits from a Vehicle class, compose a Car class with a Engine and Wheels objects.
 
 # UML Relations
-
 ## 1. Dependency
 - **Definition**: A relationship where one class depends on another for its operation or behavior.
 - **Example**: A `Printer` class depends on the `Paper` class.
@@ -80,6 +79,9 @@ SOLID is an acronym for five design principles that promote cleaner, more mainta
 - **Example**: A `Dog` class implements the `Animal` interface.
 
 ![image](https://github.com/user-attachments/assets/4092cf5b-58a5-46f6-b776-be92362589f6)
+
+# Design patterns
+In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design. A design pattern isn't a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations. In addition, design patterns allow developers to communicate using well-known, well understood names for software interactions.
 
 # Behavioral Design Patterns
 Behavioral design patterns focus on how objects interact and communicate with each other. They define the responsibilities and relationships between objects, ensuring that complex interactions are managed efficiently while promoting loose coupling.
