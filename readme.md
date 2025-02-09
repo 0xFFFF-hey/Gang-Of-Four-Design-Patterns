@@ -2,6 +2,7 @@
 - [SOLID Principles](#solid-principles)
 - [UML Relations](#uml-relations)
 - [Design patterns](#design-patterns)
+- [Design Pattern Types](Design-Pattern-Types)
 - [Behavioral Design Patterns](#behavioral-design-patterns)
   - [Strategy](#strategy)
   - [Chain of Responsibility](#chain-of-responsibility)
@@ -83,6 +84,17 @@ SOLID is an acronym for five design principles that promote cleaner, more mainta
 
 # Design patterns
 In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design. A design pattern isn't a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations. In addition, design patterns allow developers to communicate using well-known, well understood names for software interactions.
+
+# Design Pattern Types
+Design patterns can be separated into three main categories:
+- Behavioral
+Behavioral patterns are concerned with algorithms and the assignment of responsibilities between objects. Behavioral patterns describe not just the patterns of objects or classes but also the patterns of communication between them.
+- Structural
+Structural design patterns are design patterns that ease the design by identifying a simple way to realize relationships among entities. Structural patterns are concerned with how classes and objects are composed to form larger structures.
+- Creational
+Creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
+
+
 
 # Behavioral Design Patterns
 Behavioral design patterns focus on how objects interact and communicate with each other. They define the responsibilities and relationships between objects, ensuring that complex interactions are managed efficiently while promoting loose coupling.
