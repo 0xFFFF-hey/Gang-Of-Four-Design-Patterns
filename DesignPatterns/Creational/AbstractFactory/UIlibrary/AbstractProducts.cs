@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Creational.AbstractFactory
+namespace DesignPatterns.Creational.AbstractFactory.UIlibrary
 {
     // Abstract Product A
     public interface IButton
