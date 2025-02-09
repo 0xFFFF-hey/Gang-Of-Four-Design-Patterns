@@ -93,11 +93,25 @@ Console.WriteLine("[Main] All database operations completed.");*/
 
 #endregion
 
-#region singleton
-using DesignPatterns.Creational.FactoryMethod.LoggingSystem;
+#region Singleton
+/*using DesignPatterns.Creational.FactoryMethod.LoggingSystem;
 
 string environment = "Development"; // This could come from config
 ILogger logger = LoggerFactory.CreateLogger(environment);
 
-logger.Log("This is a log message!");
+logger.Log("This is a log message!");*/
+#endregion
+
+#region AbstractFacotry
+// Create a light-themed UI
+using DesignPatterns.Creational.AnstractFactory;
+
+IGUIFactory lightFactory = new LightThemeFactory();
+Client lightClient = new Client(lightFactory);
+lightClient.RenderUI();
+
+// Create a dark-themed UI
+IGUIFactory darkFactory = new DarkThemeFactory();
+Client darkClient = new Client(darkFactory);
+darkClient.RenderUI();
 #endregion
