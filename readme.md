@@ -148,5 +148,6 @@ Ensure a class only has one instance, and provide a global point of access to it
 ## Factory Method
 The Factory Method Pattern is a creational design pattern that provides an interface for creating objects, but allows subclasses to alter the type of objects that will be created.
 ![image](https://github.com/user-attachments/assets/ba0dd247-4498-4c9b-ad5c-21fcda27f7ae)
-
-
+## Abstract Factory
+Provide an interface for creating familiesof related or dependent objects without specifying their concrete classes.
+![image](https://github.com/user-attachments/assets/1b2e8946-e04e-4047-a5da-a76827144aa2)
