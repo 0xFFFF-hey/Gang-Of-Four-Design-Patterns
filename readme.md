@@ -164,3 +164,5 @@ Provide an interface for creating familiesof related or dependent objects withou
 ![image](https://github.com/user-attachments/assets/1b2e8946-e04e-4047-a5da-a76827144aa2)
 ## Builder
 Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+![image](https://github.com/user-attachments/assets/1b77a4f0-df11-4f2e-903f-f05950a2a0a4)
+
