@@ -162,3 +162,5 @@ The Factory Method Pattern is a creational design pattern that provides an inter
 ## Abstract Factory
 Provide an interface for creating familiesof related or dependent objects without specifying their concrete classes.
 ![image](https://github.com/user-attachments/assets/1b2e8946-e04e-4047-a5da-a76827144aa2)
+## Builder
+Separate the construction of a complex object from its representation so that the same construction process can create different representations.
