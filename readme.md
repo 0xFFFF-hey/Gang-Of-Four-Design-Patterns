@@ -23,6 +23,8 @@
 - [Creational Design Patterns](#creational-design-patterns)
   - [Singleton](#singleton)
   - [Factory Method](#factory-method)
+  - [Abstract Factory](#abstract-factory)
+  - [Builder](builder)
 
 # SOLID Principles
 ![image](https://github.com/user-attachments/assets/3311e999-38e7-4d7b-9b86-53a4c2504bdb)
